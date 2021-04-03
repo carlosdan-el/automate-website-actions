@@ -1,0 +1,61 @@
+{
+    "webdriver": "edge",
+    "headless": "false",
+    "fullscreen": "true",
+    "websites": [
+      {
+        "url": "https://www.jw.org/en",
+        "actions": [
+          {
+            "type": "find",
+            "by": "xPath",
+            "data": {
+              "element": "/html/body/div[6]/div/div/footer/div[1]/div[1]/div[2]/ul/li[11]/a"
+            }
+          },
+          {
+            "type": "click",
+            "by": "xPath",
+            "data": {
+              "element": "/html/body/div[6]/div/div/footer/div[1]/div[1]/div[2]/ul/li[11]/a"
+            }
+          },
+          {
+            "type": "find",
+            "by": "js",
+            "data": {
+              "element": "return document.querySelector('#article > div > div:nth-child(4) > div > div.jsSynCarousel.sect-syn-content.slick-initialized.slick-slider > div > div > div.slick-slide.slick-current.slick-active > div > div > div > div.syn-body.lss > h3 > a')"
+            }
+          },
+          {
+            "type": "click",
+            "by": "js",
+            "data": {
+              "element": "return document.querySelector('#article > div > div:nth-child(4) > div > div.jsSynCarousel.sect-syn-content.slick-initialized.slick-slider > div > div > div.slick-slide.slick-current.slick-active > div > div > div > div.syn-body.lss > h3 > a')"
+            }
+          },
+          {
+            "type": "click",
+            "by": "xPath",
+            "data": {
+              "element": "/html/body/div[6]/div/div/main/div/div/button"
+            }
+          },
+          {
+            "type": "find",
+            "by": "js",
+            "data": {
+              "element": "return document.querySelector('#vjs_video_3 > div.vjs-control-bar > div.vjs-control-group.vjs-settings-group > button.vjs-fullscreen-control.vjs-control.vjs-button')"
+            }
+          },
+          {
+            "type": "click",
+            "by": "js",
+            "data": {
+              "element": "return document.querySelector('#vjs_video_3 > div.vjs-control-bar > div.vjs-control-group.vjs-settings-group > button.vjs-fullscreen-control.vjs-control.vjs-button')"
+            }
+          }
+        ]
+      }
+    ]
+}

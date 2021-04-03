@@ -1,6 +1,6 @@
 using System;
-using Services;
 using Xunit;
+using Domain.Services;
 
 namespace Tests
 {
@@ -9,8 +9,14 @@ namespace Tests
         [Fact]
         public void StartAcessAutomation()
         {
-            WebDriverAutomation webDriver = new WebDriverAutomation();
-            webDriver.AutomationStart();
+            try
+            {
+                Webdriver web = new Webdriver("./", "./");
+            }
+            catch(Exception error)
+            {
+                Console.WriteLine(error.Message);
+            }
         }
     }
 }
