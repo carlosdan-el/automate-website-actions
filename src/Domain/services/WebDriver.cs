@@ -5,9 +5,9 @@ using System.IO;
 using System.Text.Json;
 using OpenQA.Selenium.Support.UI;
 using Domain.Entities;
-using Domain.validations;
+using Domain.Validations;
 using System.Collections.Generic;
-using Domain.common;
+using Domain.Common;
 
 namespace Domain.Services
 {

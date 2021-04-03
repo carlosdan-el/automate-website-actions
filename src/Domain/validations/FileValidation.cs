@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Domain.validations
+namespace Domain.Validations
 {
     public class FileValidation
     {

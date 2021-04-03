@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Domain.common
+namespace Domain.Common
 {
     public class ConsoleMessage
     {

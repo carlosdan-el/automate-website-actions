@@ -1,8 +1,8 @@
 ﻿using System;
 using System.IO;
-using Domain.common;
+using Domain.Common;
 using Domain.Services;
-using Domain.validations;
+using Domain.Validations;
 
 namespace Presentation
 {
